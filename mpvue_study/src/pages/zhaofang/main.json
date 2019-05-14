@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"地图找房",
+  "usingComponents": {
+    "map-route": "plugin://mapPlugin/mapRoute"
+}
+}

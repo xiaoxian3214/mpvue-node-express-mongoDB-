@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/fenxi/main",
+    "pages/relitu/main",
+    "pages/sandiantu/main",
+    "pages/fy_list/main",
+    "pages/fydetail/main",
+    "pages/zhaofang/main"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#489b81"
+  },
+  "plugins": {
+    "mapPlugin": {
+      "version": "1.0.6",
+      "provider": "wx5bc2ac602a747594"
+    }},
+  "tabBar":{
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/zhaofang/main",
+        "text":"地图找房"
+      },
+      {
+        "pagePath":"pages/list/main",
+        "text":"推荐房源"
+      },
+      {
+        "pagePath":"pages/fenxi/main",
+        "text":"房价分析"
+      },
+      {
+        "pagePath":"pages/fy_list/main",
+        "text":"所有房源"
+      }
+    ]
+  }}
